@@ -1,8 +1,6 @@
 import Paiement from "./Paiement.js"
 
-
-const compte = new Paiement(1000);
-
+const solde = 1000
 const depot = 200
 const retrait = 150
 const nouveauRetrait = 800
