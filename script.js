@@ -1,3 +1,15 @@
+import Paiement from "./Paiement.js"
+
+
+const compte = new Paiement(1000);
+
+const depot = 200
+const retrait = 150
+const nouveauRetrait = 800
+const nouveauDepot = 500
+
+
+/*
 const tauxInteret = 0.03
 let solde = 1000
 let depot = 200
@@ -39,4 +51,4 @@ interet2 = solde6 * tauxInteret
 //console.log(interet2)
 solde7 = solde6 + interet2
 //console.log(solde7)
-console.log("Intérêts annuels de 3% ajoutés. Nouveau solde : " + solde7 + " euros.")
+console.log("Intérêts annuels de 3% ajoutés. Nouveau solde : " + solde7 + " euros.")*/
